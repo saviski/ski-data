@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2018",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "es2020",
+      "dom.iterable",
+      "esnext.asynciterable"
+    ],
+    "outDir": "js",
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "preserveSymlinks": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "./types/**"
+  ]
+}
