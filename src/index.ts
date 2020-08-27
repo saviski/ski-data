@@ -1,1 +1,1 @@
-export * from './ski-data'
+export * from './ski-data.js'

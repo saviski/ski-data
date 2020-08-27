@@ -2,15 +2,15 @@
   "name": "@ski/data",
   "version": "0.1.0",
   "description": "Scoped inheritable arbitrary element data",
-  "main": "data.min.js",
+  "type": "module",
+  "main": "data.js",
   "module": "data.js",
   "types": "src/index.ts",
   "scripts": {
     "build": "run-s clean build:*",
     "watch": "run-p \"build:* -- --watch\"",
     "clean": "rimraf js .types",
-    "build:bundle": "rollup -c",
-    "build:typescript": "ttsc"
+    "build:bundle": "rollup -c"
   },
   "repository": {
     "type": "git",
